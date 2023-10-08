@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.messageSenderCard{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* height: 3rem; */
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.right{
+    width: 45%;
+    height: 100%;;
+    margin-left: 8px;
+    background-color: #0077f6;
+    color:#ffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+.left{
+    width: 5%;
+    height: 100%;
+    /* background-color: red; */
+}
